@@ -1,1 +1,1 @@
-# ⚙️ Dotfiles & Terminal Config — ackup Konfigurasi Terminal Saya
+# ⚙️ Dotfiles & Terminal Config - Backup Konfigurasi Terminal Saya
