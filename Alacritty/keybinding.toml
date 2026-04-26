@@ -1,0 +1,12 @@
+[keyboard]
+bindings = [
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  { key = "F", mods = "Control|Shift", action = "SearchForward", mode = "~Search" },
+  { key = "Key0", mods = "Control", action = "ResetFontSize" },
+  { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
+  { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+  { key = "PageUp", action = "ScrollHalfPageUp", mode = "~Alt" },
+  { key = "PageDown", action = "ScrollHalfPageDown", mode = "~Alt" },
+  { key = "Back", mods = "Control", chars = "\u0017" },
+]

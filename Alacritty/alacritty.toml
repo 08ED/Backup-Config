@@ -1,100 +1,44 @@
+[general]
+import = [
+  "C:\\Users\\ASUS\\AppData\\Roaming\\alacritty\\theme\\themes\\argonaut.toml",
+  "C:\\Users\\ASUS\\AppData\\Roaming\\alacritty\\keybinding.toml",
+]
+working_directory = "E:\\$Terminal-Home\\"
 live_config_reload = true
 
-[colors]
-draw_bold_text_with_bright_colors = true
-
-[colors.bright]
-black = "0x666666"
-blue = "0x7aa6da"
-cyan = "0x54ced6"
-green = "0x9ec400"
-magenta = "0xb77ee0"
-red = "0xff3334"
-white = "0xffffff"
-yellow = "0xe7c547"
-
-[colors.cursor]
-cursor = "0xffffff"
-text = "0xffffff"
-
-[colors.dim]
-black = "0x333333"
-blue = "0x6699cc"
-cyan = "0x66cccc"
-green = "0x99cc99"
-magenta = "0xcc99cc"
-red = "0xf2777a"
-white = "0xdddddd"
-yellow = "0xffcc66"
-
-[colors.normal]
-black = "0x000000"
-blue = "0x7aa6da"
-cyan = "0x70c0ba"
-green = "0xb9ca4a"
-magenta = "0xc397d8"
-red = "0xd54e53"
-white = "0xffffff"
-yellow = "0xe6c547"
-
-[colors.primary]
-background = "0x000000"
-foreground = "0xffffff"
-
-[cursor]
-style = "Underline"
-unfocused_hollow = true
+[terminal]
+shell = { program = "pwsh", args = ["-NoLogo"] }
 
 [font]
-size = 12.0
+size = 10
+
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Regular"
 
 [font.bold]
-family = "Cascadia Code"
+family = "JetBrainsMono NF"
 style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono NF"
+style = "Italic"
 
 [font.glyph_offset]
 x = 0
 y = 0
 
-[font.italic]
-family = "Cascadia Code"
-style = "Italic"
-
-[font.normal]
-family = "Cascadia Code"
-style = "Regular"
-
 [font.offset]
 x = 0
 y = 0
 
-[mouse]
-hide_when_typing = true 
-
-[[mouse.bindings]]
-action = "PasteSelection"
-mouse = "Right"
-
-[scrolling]
-history = 10000
-multiplier = 3
-
-[selection]
-save_to_clipboard = false
-semantic_escape_chars = ",│`|:\"' ()[]{}<>"
-
-[shell]
-args = ["-NoLogo"]
-program = "pwsh.exe"
-
 [window]
-decorations = "full"
-dynamic_padding = true
+dimensions = { columns = 110, lines = 28 }
+position = { x = 300, y = 100 }
+padding = { x = 5, y = 5 }
+opacity = 0.8
+title = "08ED"
+dynamic_title = true
 
-[window.dimensions]
-columns = 100
-lines = 25
-
-[window.padding]
-x = 2
-y = 2
+[cursor]
+style = { shape = "Beam", blinking = "On" }
