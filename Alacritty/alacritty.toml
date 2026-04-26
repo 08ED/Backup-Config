@@ -1,9 +1,9 @@
 [general]
 import = [
-  "C:\\Users\\ASUS\\AppData\\Roaming\\alacritty\\theme\\themes\\argonaut.toml",
+  #"C:\\Users\\ASUS\\AppData\\Roaming\\alacritty\\theme\\themes\\argonaut.toml",
   "C:\\Users\\ASUS\\AppData\\Roaming\\alacritty\\keybinding.toml",
 ]
-working_directory = "E:\\$Terminal-Home\\"
+#working_directory = "E:\\$Terminal-Home\\"
 live_config_reload = true
 
 [terminal]
